@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+    background: #18BC9C;
+}
+hr.star-light:after, hr.star-primary:after {
+    content: "\f085";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 2em;
+    padding: 0 .25em;
+}
