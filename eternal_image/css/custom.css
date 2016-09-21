@@ -1,0 +1,81 @@
+.black {
+	color: #000;
+	font-size: 1.1em;
+}
+.purple {
+	color: #48009C;
+}
+hr {
+height: 1px;
+color: #48009C;
+background-color: #48009C;
+border: none;
+}
+/*NAV*/
+.navbar-custom .nav li a:hover {
+    color: #48009C;
+}
+.navbar-custom .navbar-toggle {
+    color: #fff;
+    background-color: #48009C;
+    
+    font-size: 12px;
+}
+/*PROCESS*/
+a:hover, a:focus {
+    text-decoration: none;
+    color: #48009C;
+}
+/*FORM*/
+label {
+	font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    font-size: 18px;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: .05em
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #48009C;
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.btn-success.disabled {
+	border: 1px solid #48009C;
+    outline: 0;
+    color: #48009C;
+    background-color: #000;
+}
+.btn-success.disabled:hover {
+	border: 1px solid #000;
+    outline: 0;
+    color: #fff;
+    background-color: #48009C;
+}
+/*button*/
+.btn-default {
+    border: 1px solid #48009C;
+    outline: 0;
+    color: #48009C;
+    background-color: #000;
+}
+.btn-default:hover {
+    border: 1px solid #000;
+    outline: 0;
+    color: #fff;
+    background-color: #48009C;
+}

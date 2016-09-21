@@ -1,0 +1,29 @@
+
+body {
+    font-family: 'McLaren', cursive;
+}
+.brand, .brand-name {
+    font-family: 'Patrick Hand SC', cursive;
+}
+/*HOME PAGE*/
+a:focus, a {
+    /*replace w color*/
+}
+/*MISSION STATEMENT WELL*/
+.well-lg {
+    padding: 24px;
+    border-radius: 6px;
+    font-size: 25px;
+}
+/*PANELS EXPANDABLE*/
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding: 20px;
+}
+/*FOOTER*/
+.pager li > a {
+    /*replace w color*/
+}
+
