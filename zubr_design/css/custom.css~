@@ -1,0 +1,221 @@
+/*CUSTOM STYLE FOR PAGE
+Pastel colors:
+#ff9900 == orange
+#7437E8 == purple
+#60FF3F == green
+*/
+
+/*NAVBAR and HOME PAGE*/
+.i {  
+  color: #fff;
+  position: relative; 
+}
+.i:before {
+	  content: '';
+  display: inline;
+  background:  #ff9900;
+
+  /* dot size */
+  height: .35em;
+  width: .35em;
+	
+  /* roundness */
+  border-radius:.19em;
+
+  /* position */
+  position: absolute;
+  top: .08em;
+  left: 0;
+  font-family: 'Lato', sans-serif;
+
+}
+@media only screen and (max-width: 500px) {
+	.i {  
+  color: #fff;
+  position: relative;
+	}
+	.i:before {
+	 	  content: '';
+  display: inline;
+  background:  #ff9900;
+
+  /* dot size */
+  height: .35em;
+  width: .35em;
+	
+  /* roundness */
+  border-radius:.19em;
+
+  /* position */
+  position: absolute;
+  top: .097em;
+  left: 0;
+  font-family: 'Lato', sans-serif;
+	}
+	section h2.section-heading {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
+	}
+	header {
+	margin-top: 50px;	
+	}
+}
+
+header {
+	background-position: top center;
+}
+.green {
+	color: #60FF3F;
+}
+.navbar-custom .navbar-brand {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+	text-shadow: 1px 1px #000;
+}
+.navbar-custom .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-custom .navbar-brand:focus {
+    color: #fff;
+}
+.navbar-custom .nav li a, .navbar-custom .nav li a {
+	color: #60FF3F; 
+	text-transform: none;
+	font-family: 'Lato', sans-serif;
+}
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
+    color: #ff9900;
+    outline: 0;
+}
+.navbar-custom .navbar-nav > .active > a:focus, .navbar-custom .navbar-nav > .active > a{
+    color: #fff;
+    background-color: #7437E8;
+}
+.navbar-custom .navbar-nav > .active > a:focus, .navbar-custom .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #7437E8;
+}
+/*collapsed*/
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle {
+    background-color: #7437E8;
+	 border-color: #7437E8;
+}
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: #60FF3F;
+	 border-color: #60FF3F;
+}
+header .text-primary {
+  color: #fff; /*down scroll*/
+  text-shadow: 2px 2px #000
+}
+
+/*BUTTON*/
+.btn-xl.active, .btn-xl, .btn-xl, .btn-xl, .open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #7437E8;
+    border-color: #7437E8;
+ 
+}
+.btn-xl.active, .btn-xl:active, .btn-xl:focus, .btn-xl:hover, .open .dropdown-toggle.btn-xl {
+    color: #fff;
+    background-color: #ff9900;
+    border-color: #ff9900;
+
+}
+.btn-primary, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #7437E8;
+    border-color: #7437E8;
+}
+
+/*SERVICES*/
+.text-primary {
+  color: #ff9900; /*circles*/
+  
+}
+@media only screen and (max-width: 500px) {
+	.text-primary {
+	  color: #ff9900; /*circles*/
+ 	 margin-top: 30px;
+	}	
+	.nav-dot {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+.service-heading {
+    margin: 30px;
+    text-transform: none;
+}
+}
+.nav-dot {
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+section#contact .section-heading {
+    color: #333;
+}
+/*PORTFOLIO*/
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    background: #ff9900;
+}
+/*ABOUT*/
+.timeline > li .timeline-image {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    z-index: 100;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 100%;
+    border: none;
+    text-align: center;
+  	 margin-left: -25px;
+}
+.about-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 14px;
+}
+@media only screen and (max-width: 500px) {
+	.timeline > li .timeline-image {
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    z-index: 100;
+    background-color: #ff9900;
+    color: #fff;
+    border-radius: 100%;
+    border: none;
+    text-align: center;
+  	 margin-left: 15px;
+	}	 
+	.about-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 14px;
+	margin-left: -19px;
+	}
+}
+
+/*CONTACT*/
+section#contact {
+    background-color: #F1F1F1;
+    background-image: url(../img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*footer*/
+a {
+	color: #7437E8;
+	font-size: bold;
+}
+a:hover {
+	color: #ff9900;
+}
+
+
+

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Rob" >
+
+    <title>Yia Yia's Greek Express - Online Ordering</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Candal|Merriweather+Sans" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+     <div class="brand">Yia Yia's Greek Express</div>
+    <div class="address-bar">35220 Us Hwy 19 N | Palm Harbor, Florida 34684 | (727) 940-9423</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Yia Yia's Greek Exp.</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Menu</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Online Ordering</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+ <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h1 class="intro-text text-center">Yia Yia's Online Ordering
+                    <br>
+                        <strong>Place order here!</strong>
+								<hr>
+ 							<a href="img/menu-2.jpg" class="btn btn-default btn-lg" target="_blank">See our Menu</a>
+                    </h1>
+                   
+                    
+                    <p class="intro-text text-center">Thanks for choosing Yia Yia's Greek Express!
+                    </p>
+                   <form id="contact-form" method="post" action="contact.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Name *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your Name *" required="required" data-error="Name is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Delivery Address</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="ONLY FOR DELIVERY ORDERS">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone Number *</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please a number to reach you *" required="required" data-error="contact info is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Order Details *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Is this for Pick Up or Delivery? *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Place Order">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h1 class="intro-text text-center"><strong>We Deliver</strong>
+                    <br>
+                        
+           
+                    </h1>
+                    <hr>
+                </div>
+                <div class="col-md-4">
+                    <p>Phone:
+                        <strong>(727) 940-9423</strong>
+                    </p>
+                    <p>Email:
+                        <strong><a href="mailto:yiayiasgreekexpress@gmail.com">yiayiasgreekexpress@gmail.com</a></strong>
+                    </p>
+                    <p>Address:
+                        <strong>35220 Us Hwy 19 N
+                            <br>Palm Harbor, Florida 34684</strong>
+                    </p>
+							<p>Come on by:
+                        <strong>Monday - Saturday
+                            <br>Hours: 11am - 9pm</strong>
+                    </p>
+             		  
+                </div>
+                <div class="col-md-8">
+                    <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.756646836387!2d-82.74333518492946!3d28.0929649826337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2f27ece455555%3A0x5e37988c19ec1e81!2sYia+Yia&#39;s+Greek+Express!5e0!3m2!1sen!2sus!4v1472244548568" width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+                
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+       
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <p>Copyright &copy; Yia Yia's Greek Express. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+     <script src="js/validator.js"></script>
+      <script src="js/contact.js"></script>
+
+</body>
+
+</html>
