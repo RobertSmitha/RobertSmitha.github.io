@@ -1,3 +1,6 @@
+body {
+	font-family: 'Dosis', sans-serif;
+}
 .black {
 	color: #000;
 	font-size: 1.1em;
@@ -12,23 +15,56 @@ background-color: #48009C;
 border: none;
 }
 /*NAV*/
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 24px;
+    line-height: 20px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	text-transform: none;
+}
+.navbar-custom .nav li a {
+	font-family: 'Lato', sans-serif;
+}
 .navbar-custom .nav li a:hover {
     color: #48009C;
 }
 .navbar-custom .navbar-toggle {
     color: #fff;
     background-color: #48009C;
-    opacity: .2px;
     font-size: 12px;
+}
+.navbar-custom .nav li.active a {
+    background-color: #48009C;
+}
+/*Header Page*/
+.intro .intro-body .brand-heading {
+    font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	text-transform: none;
+}
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	text-transform: none
 }
 /*PROCESS*/
 a:hover, a:focus {
     text-decoration: none;
     color: #48009C;
 }
+p	{
+ 	font-family: 'Dosis', sans-serif;
+	margin: 0 auto;
+}
+	font-weight: bold;
+	text-transform: none
+}
 /*FORM*/
 label {
-	font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family:  'Dosis', sans-serif;
     display: block;
     font-size: 18px;
     max-width: 100%;

@@ -229,7 +229,7 @@
 					</nav>
                     <p>Copyright &copy; Kids' Village 2016</p>
 
- 					<a href="#page-top">Back to top</a>
+ 					<a class="page-scroll" href="#page-top">Back to top</a>
  					<br>
  					<br>
                 </div>
