@@ -48,22 +48,22 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Kids Village</a>
+                <a class="navbar-brand" href="index.html"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Kids Village</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html"><i class="fa fa-pencil" aria-hidden="true"></i>About</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i>Contact</a>
                     </li>
                     <li>
-                        <a href="pay.html">Online Pay</a>
+                        <a href="pay.html"><i class="fa fa-credit-card-alt" aria-hidden="true"></i>Online Pay</a>
                     </li>
                 </ul>
             </div>
@@ -110,20 +110,21 @@
                         <small>Welcome to</small>
                     </h2>
                     <h1 class="brand-name">Kids Village</h1>
-                    <hr class="tagline-divider">
+                    
                     <h2>
                         <small>
                             <strong>Early Learning Center</strong>
                         </small>
                     </h2>   
+                    <hr class="tagline-divider">
                     <h4>Contact Info</h4>                
                      <p>
-							<a><i class="fa fa-phone" aria-hidden="true">Phone: </i>(850) 224-1234</a><br>
+							<a><i class="fa fa-mobile" aria-hidden="true">Phone: </i>(850) 224-1234</a><br>
                      <a><i class="fa fa-fax" aria-hidden="true">Fax: </i>(850) 878-5678</a><br>
                      <a href="mailto:AngelaMitchell@hotmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>AngelaMitchell@hotmail.com</a>
                      </p>
                     <p>
-                    Our Kids Village childcare facility is open from 7:00 AM till 6:00 PM Monday through Friday
+                    Childcare facility open from 7:00AM till 6:00PM Monday through Friday
                     </p>
                 </div>
             </div>
