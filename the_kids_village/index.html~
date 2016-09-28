@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Tallahassee daycare, child care">
+    <meta name="description" content="kids village, tallahassee daycare, child care, tally kids">
     <meta name="author" content="Rob" >
 
-    <title>The Kids Village</title>
+    <title>Kids Village</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,7 @@
 	<link rel="icon" href="img/favicon.ico">
     <!-- Fonts --> 
 	<link href="https://fonts.googleapis.com/css?family=McLaren|Patrick+Hand+SC" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +33,7 @@
 
 <body>
  <section id="page-top">
-    <div class="brand">The Kids Village</div>
+    <div class="brand">Kids Village</div>
     <div class="address-bar">1000 W. Tharpe St. | Tallahassee, Fl 32303 | (850) 224-1234</div>
 
     <!-- Navigation -->
@@ -47,7 +48,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">The Kids Village</a>
+                <a class="navbar-brand" href="index.html">Kids Village</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -59,10 +60,10 @@
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="pay.html">Online Pay</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="pay.html">Online Pay</a>
                     </li>
                 </ul>
             </div>
@@ -108,16 +109,18 @@
                     <h2 class="brand-before">
                         <small>Welcome to</small>
                     </h2>
-                    <h1 class="brand-name">The Kids Village</h1>
+                    <h1 class="brand-name">Kids Village</h1>
                     <hr class="tagline-divider">
                     <h2>
                         <small>
                             <strong>Early Learning Center</strong>
                         </small>
-                    </h2>                   
+                    </h2>   
+                    <h4>Contact Info</h4>                
                      <p>
-                     <a><span class="glyphicon glyphicon-earphone"></span>(850) 224-1234</a><br>
-                     <a href="mailto:kellypfeiffer68@yahoo.com"><span class="glyphicon glyphicon-envelope"></span>kellypfeiffer68@yahoo.com</a>
+							<a><i class="fa fa-phone" aria-hidden="true">Phone: </i>(850) 224-1234</a><br>
+                     <a><i class="fa fa-fax" aria-hidden="true">Fax: </i>(850) 878-5678</a><br>
+                     <a href="mailto:AngelaMitchell@hotmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>AngelaMitchell@hotmail.com</a>
                      </p>
                     <p>
                     Our Kids Village childcare facility is open from 7:00 AM till 6:00 PM Monday through Friday
@@ -223,13 +226,14 @@
                 <div class="col-lg-12 text-center">
                 <nav aria-label="...">
  						 <ul class="pager">
- 						 		<li class="previous"><a href="contact.html">&larr; Previous <span aria-hidden="true"></span></a></li>
+ 						 		<li class="previous"><a href="pay.html">&larr; Previous <span aria-hidden="true"></span></a></li>
    						  <li class="next"><a href="about.html">Next <span aria-hidden="true">&rarr;</span></a></li>
   						</ul>
 					</nav>
+						<p><i class="fa fa-file-text-o" aria-hidden="true">Child Care License #CO2LE0466</i></p>
                     <p>Copyright &copy; Kids' Village 2016</p>
 
- 					<a class="page-scroll" href="#page-top">Back to top</a>
+ 					<a href="#page-top">Back to top</a>
  					<br>
  					<br>
                 </div>
