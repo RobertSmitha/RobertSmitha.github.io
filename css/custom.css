@@ -18,6 +18,11 @@ gray == #403f3f;
     color: #b23d3c;
     outline: 0;
 }
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: #b23d3c;
+    color: #fff;
+    border-color: #b23d3c;
+}
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover{
 	  background: #b23d3c;
 	  font-weight: 700;
