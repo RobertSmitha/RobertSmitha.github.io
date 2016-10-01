@@ -60,6 +60,9 @@ section.success {
     border-color: #b23d3c;
     font-weight: 700;
 }
+.floating-label-form-group-with-focus label {
+	color: #b23d3c;
+}
 /*FOOTER*/
 footer .footer-above {
     padding-top: 50px;
