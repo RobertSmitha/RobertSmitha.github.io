@@ -1,0 +1,48 @@
+/*nav bar*/
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+	 font-family: 'Cinzel', serif;
+}
+.navbar-custom .navbar-toggle {
+    color: #fff;
+    background-color: #247BFF;
+    font-size: 12px;
+}
+li a.page-scroll:hover {
+	color: #247BFF;
+}
+.navbar-custom .nav li.active a {
+    background-color: #247BFF;
+}
+/*intro page top*/
+.intro .intro-body .brand-heading {
+    font-size: 80px;
+	 font-family: 'Contrail One', cursive;
+	 text-shadow: 2px 2px #000;
+}
+.btn-circle:hover {
+	background-color: #247BFF;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+a {
+	color: #247BFF;
+}
+a:hover {
+	color: #fff;
+}
+/*button in contact*/
+.btn-default {
+    border: 1px solid #247BFF;
+    color: #247BFF;
+    background-color: transparent;
+}
+.btn-default:hover {
+    border: 1px solid #247BFF;
+    color: #000;
+    background-color: #247BFF;
+}
+.blue {
+	color: #247BFF;
+}
