@@ -49,7 +49,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", this contact form is not yet connected to the database yet, please use connect button above!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", this contact form is not yet connected to the database, please use connect button above!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
