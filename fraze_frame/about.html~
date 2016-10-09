@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Rob" >
+	 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>Fraze Frame</title>
+	 <!--FONTS & ICONS-->
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                <img src="img/logo.gif" alt="fraze frame"> 
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+      
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Introduction Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">About Us
+                    <small>Fuck you</small>
+                </h1>
+                <p>Who are we? <br>Who are you bitch? Download the app and we'll do some talking</p>
+            </div>
+        </div>
+
+        <!-- Team Members Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Our Team</h2>
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="img-circle img-responsive img-center" src="img/team/1.jpg" alt="Troy calandra">
+                <h3>Troy Caladra
+                    <small>CEO/Founder</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+					 <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/rob.smitha" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/104625845534875230413" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://robsmitha.wordpress.com" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/rob-smitha-7ab39212a" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/roblaflare/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+                        </ul>          
+            </div>
+            <div class="col-md-6 text-center">
+                <img class="img-circle img-responsive img-center" src="img/team/2.jpg" alt="Rob Smitha">
+                <h3>Rob Smitha
+                    <small>Web Consultant</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+                 <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/rob.smitha" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                             <li>
+                                <a href="https://www.facebook.com/rob.smitha" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://plus.google.com/104625845534875230413" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://robsmitha.wordpress.com" class="btn-social btn-outline"><i class="fa fa-fw fa-wordpress"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/rob-smitha-7ab39212a" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/roblaflare/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>
+									  <li>
+                                <a href="https://www.facebook.com/rob.smitha" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                        </ul>
+            </div>
+           
+            <!--Developer section-->
+             <div class="col-lg-12">
+                <h2 class="page-header">Developers
+						<small>Assholes</small>                
+                </h2>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center">
+                <img class="img-circle img-responsive img-center" src="http://placehold.it/200x200" alt="">
+                <h3>John Smith
+                    <small>Job Title</small>
+                </h3>
+                <p>What does this team member to? Keep it short! This is also a great spot for social links!</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+       <footer>
+        	<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline banner-social-buttons pull-right">
+                        <li>
+                            <a href="https://itunes.apple.com/us/app/fraze-frame-photo-competition/id1054162925?mt=8" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">App Store</span></a>
+                        </li>
+                    </ul>
+                <small>Copyright &copy; Fraze Frame 2016</small>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+	 <script src="js/validator.js"></script>
+	 <script src="js/contact.js"></script>
+
+</body>
+
+</html>
