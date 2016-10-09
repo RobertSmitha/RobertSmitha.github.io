@@ -64,19 +64,19 @@ body {
 	}
 @media only screen and (max-width: 500px) {
    .about-section {
-    height: 200%;
+    height: 150%;
     padding-top: 10px;
     text-align: center;
     background:  #337ab7;
 	}
 	.services-section {
-    height: 200%;
+    height: 150%;
     padding-top: 10px;
     text-align: center;
     background: #fff;
 	}
 	.contact-section {
-    height: 200%;
+    height: 150%;
     padding-top: 10px;
     text-align: center;
     background:  #337ab7;
