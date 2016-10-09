@@ -62,6 +62,12 @@ body {
     text-align: center;
     background: #337ab7;
 	}
+	.services-section {
+    height: 100%;
+    padding-top: 10px;
+    text-align: center;
+    background: #fff;
+	}
 	.contact-section {
     height: 100%;
     padding-top: 50px;
@@ -70,7 +76,7 @@ body {
 	}
 	.services-section {
     height: 100%;
-    padding-top: 10px;
+    padding-top: 50px;
     text-align: center;
     background: #fff;
 	}
