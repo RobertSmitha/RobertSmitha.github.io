@@ -56,7 +56,8 @@ body {
     text-align: center;
     background: #fff;
 }
-.about-section {
+@media only screen and (max-width: 500px) {
+	.about-section {
     height: 120%;
     padding-top: 50px;
     text-align: center;
@@ -74,7 +75,7 @@ body {
     text-align: center;
     background: #337ab7;
 	}
-
+}
 
 /**************************ABOUT PAGE**********************************/
 .img-center {
