@@ -57,6 +57,20 @@ body {
     background: #fff;
 }
 .about-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #337ab7;
+	}
+
+	.contact-section {
+    height: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background: #337ab7;
+	}
+@media only screen and (max-width: 500px) {
+	.about-section {
     height: 120%;
     padding-top: 50px;
     text-align: center;
@@ -74,7 +88,7 @@ body {
     text-align: center;
     background: #337ab7;
 	}
-
+}
 
 /**************************ABOUT PAGE**********************************/
 .img-center {
