@@ -1,0 +1,69 @@
+/*
+COLOR PALLET
+red == #b23d3c;
+gray == #403f3f;
+*/
+
+/*****************************NAV BAR***************************/
+.navbar-default .navbar-header .navbar-brand {
+    color: #b23d3c;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000;
+}
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #b23d3c;
+    font-size: 18px;
+	 text-shadow: 1px 1px #403f3f;
+}
+.navbar-default.affix .navbar-header .navbar-brand:hover, .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #403f3f;
+    font-size: 14px;
+}
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: #b23d3c!important;
+    background-color: transparent;
+}
+/*****************************HOME PAGE***************************/
+header .header-content .header-content-inner h1 {
+	text-shadow: 2px 2px #000;
+}
+hr {
+	border-color: #b23d3c;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #b23d3c;
+}
+.btn-primary:hover, .btn-primary:focus {
+    color: #b23d3c;
+    background-color: #fff;
+}
+.bg-primary {
+    background-color: #b23d3c;
+}
+.fa-diamond:before {
+    content: "\f108";
+    color: #b23d3c;
+}
+.fa-send:before, .fa-paper-plane:before {
+    content: "\f0c0";
+    color: #b23d3c;
+}
+.fa-newspaper-o:before {
+    content: "\f0e4";
+    color: #b23d3c;
+}
+.fa-heart:before {
+    content: "\f200";
+	 color: #b23d3c;
+}
+.portfolio-box .portfolio-box-caption {
+	 background-color: #b23d3c;
+}
+a {
+    transition: all .35s;
+    color: #b23d3c;
+}
+/*****************************NAV BAR***************************/
+/*****************************NAV BAR***************************/
