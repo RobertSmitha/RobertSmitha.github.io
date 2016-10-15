@@ -7,10 +7,57 @@ gray == #403f3f;
 	color: #fff;
 	text-shadow: 2px 2px #000;
 }
+.padding-top {
+	padding-top: 100px;
+}
+.padding-bottom {
+	padding-bottom: 100px;
+}
+/***************************FA ICONS***************************/
+.fa-desktop:before {
+    
+    color: #b23d3c;
+}
+.fa-users:before {
+   
+    color: #b23d3c;
+}
+.fa-dashboard:before {
+    
+    color: #b23d3c;
+}
+.fa-eye:before {
+    
+    color: #b23d3c;
+}
+.fa-code:before {
+    
+    color: #b23d3c;
+}
+.fa-rocket:before {
+    
+    color: #b23d3c;
+}
+.fa-comments:before {
+    
+    color: #b23d3c;
+}
+.fa-laptop:before {
+    
+    color: #b23d3c;
+}
+.fa-mobile:before {
+    
+    color: #b23d3c;
+}
 /*****************************NAV BAR***************************/
 .navbar-default.affix {
     background-color: #000;
     border-color: #000;
+}
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #fff;
+    font-size: 18px;
 }
 /*smaller screens collapsed nav*/
 .navbar-default {
@@ -81,34 +128,7 @@ hr {
     border-color: #b23d3c;
     transition: all .35s;
 }
-.fa-desktop:before {
-    
-    color: #b23d3c;
-}
-.fa-users:before {
-   
-    color: #b23d3c;
-}
-.fa-dashboard:before {
-    
-    color: #b23d3c;
-}
-.fa-eye:before {
-    
-    color: #b23d3c;
-}
-.fa-code:before {
-    
-    color: #b23d3c;
-}
-.fa-rocket:before {
-    
-    color: #b23d3c;
-}
-.fa-comments:before {
-    
-    color: #b23d3c;
-}
+
 a {
     transition: all .35s;
     color: #b23d3c;

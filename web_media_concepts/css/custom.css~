@@ -7,10 +7,23 @@ gray == #403f3f;
 	color: #fff;
 	text-shadow: 2px 2px #000;
 }
+.padding-top {
+	padding-top: 100px;
+}
+.padding-bottom {
+	padding-bottom: 100px;
+}
+process {
+	background-image: url('img/process.jpg');
+}
 /*****************************NAV BAR***************************/
 .navbar-default.affix {
     background-color: #000;
     border-color: #000;
+}
+.navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #fff;
+    font-size: 18px;
 }
 /*smaller screens collapsed nav*/
 .navbar-default {
@@ -102,6 +115,10 @@ hr {
     color: #b23d3c;
 }
 .fa-rocket:before {
+    
+    color: #b23d3c;
+}
+.fa-comments:before {
     
     color: #b23d3c;
 }
