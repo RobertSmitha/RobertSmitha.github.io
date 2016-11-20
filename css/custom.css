@@ -2,12 +2,7 @@ h1, h3 {
 	color: #ffffff;
 	text-shadow: 2px 2px #000;
 }
-.bg-primary {
-	
-}
-.list-inline>li {
-	
-}
+
 .blue {
 	background-color: #337ab7;
 }
@@ -16,6 +11,12 @@ h1, h3 {
 }
 .fa {
 	color: #fff;
+}
+.fa-envelope-o {
+	color: #337ab7;
+}
+.fa-phone {
+	color: #337ab7;
 }
 .btn-light {
     background-color: #000;

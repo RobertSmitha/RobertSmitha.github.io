@@ -2,20 +2,18 @@ h1, h3 {
 	color: #ffffff;
 	text-shadow: 2px 2px #000;
 }
-.bg-primary {
-	
-}
-.list-inline>li {
-	
-}
+
 .blue {
 	background-color: #337ab7;
 }
 .white {
-	color: #fff;
+	background-color: #fff;
 }
 .fa {
 	color: #fff;
+}
+.fa-envelope-o {
+	color: #337ab7;
 }
 .btn-light {
     background-color: #000;
