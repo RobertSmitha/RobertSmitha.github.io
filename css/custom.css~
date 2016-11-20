@@ -9,8 +9,14 @@ h1, h3 {
 	
 }
 .blue {
-	color: #337ab7;
+	background-color: #337ab7;
+}
+.white {
+	color: #fff;
 }
 .fa {
 	color: #fff;
+}
+.btn-light {
+    background-color: #000;
 }
