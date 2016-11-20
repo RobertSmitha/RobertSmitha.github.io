@@ -47,9 +47,7 @@
             <li>
                 <a href="#about" onclick=$("#menu-close").click();>About</a>
             </li>
-            <li>
-                <a href="#services" onclick=$("#menu-close").click();>Services</a>
-            </li>
+            
             <li>
                 <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
             </li>
@@ -108,17 +106,18 @@
                             </div>
                         </div>
                         <div class="col-md-8">
-                        <b>I'm Rob Smitha...yes that's Smitha with an 'a' </b>
+                        <b>I'm Rob Smitha...yes, Smitha with an 'a' </b>
                         <p>
-It is no secret that today a company can gain a ton traffic from developing a strong online presence and an effective social media platform. Helping to bridge that divide is where I am finding my footing in the business world today.  									
+It is no secret that today a company can gain a ton traffic from developing a strong online presence and an effective social media platform. Helping to bridge that divide is where I have found my footing in the business world today.  									
  									</p>
                             <p>
-I am a 22 year old computer science student at Florida State University and started designing websites about two years ago. I soon discovered that making websites for clients was just the tip of the iceberg.
- The real benefit is the business relationships I am building with my clients and watching their businesses flourish is just a bonus.
+I am a 22 year old computer science student at Florida State University and started designing websites about two years ago. I love making websites in my free time. For me, it is exciting to see something you worked very hard to create
+ being put out there where anyone can interact with. I am a firm believer in find finding work in doing what you love, so the fact that I was able to start my own web design business from this is just the icing on the cake.
  									</p>
+ 									<small>I always enjoy taking on new projects and opportunities. Use the button below to take the next step.</small>
  									<hr class="small">
  									
- 									<a href="mailto:robsmitha@webmediaconcepts.com" class="btn btn-dark">Contact Me</a>
+ 									<a href="http://webmediaconcepts.com" target="_blank" class="btn btn-dark">Get Started</a>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
@@ -147,28 +146,28 @@ I am a 22 year old computer science student at Florida State University and star
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="http://www.cory2v.com/">
+                                <a href="http://www.cory2v.com/" target="_blank">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="http://frazeframe.com/">
+                                <a href="http://frazeframe.com/" target="_blank">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="http://thekidsvillage.org/">
+                                <a href="http://thekidsvillage.org/" target="_blank">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="http://tallyvalet.com/">
+                                <a href="http://tallyvalet.com/" target="_blank">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
                                 </a>
                             </div>
@@ -191,16 +190,19 @@ I am a 22 year old computer science student at Florida State University and star
                 <div class="col-lg-12 text-center">
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.facebook.com/webmediaconcepts/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <a href="https://www.facebook.com/webmediaconcepts/" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/WebMediaConcept"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <a href="https://twitter.com/WebMediaConcept" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="https://instagram.com/WebMediaConcepts"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                            <a href="https://instagram.com/WebMediaConcepts" target="_blank"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/rob-smitha-7ab39212a"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/rob-smitha-7ab39212a" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/RobertSmitha" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -220,6 +222,7 @@ I am a 22 year old computer science student at Florida State University and star
 -->
     <!-- Footer -->
     <footer>
+    <section id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
@@ -228,17 +231,18 @@ I am a 22 year old computer science student at Florida State University and star
                     <p>680 W Virginia St.
                         <br>Tallahassee, FL</p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (727) 432-3457</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:robsmitha@webmediaconcepts.com">robsmitha@webmediaconcepts.com</a>
+                        <li><i class="fa fa-phone blue-in fa-fw"></i> (727) 432-3457</li>
+                        <li><i class="fa fa-envelope-o blue-in fa-fw"></i> <a href="mailto:robsmitha@webmediaconcepts.com">robsmitha@webmediaconcepts.com</a>
                         </li>
                     </ul>
                     <br>
                     
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Rob Smitha 2016</p>
+                    <p class="text-muted">Copyright &copy; Rob Smitha 2016 &middot; <a href="http://webmediaconcepts.com" target="_blank" >Web Media Concepts</a></p>
                 </div>
             </div>
         </div>
+      </section>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
@@ -300,6 +304,7 @@ I am a 22 year old computer science student at Florida State University and star
             }
         }
     });
+/*
     // Disable Google Maps scrolling
     // See http://stackoverflow.com/a/25904582/1607849
     // Disable scroll zooming and bind back the click event
@@ -320,6 +325,7 @@ I am a 22 year old computer science student at Florida State University and star
         }
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
+*/    
     </script>
 
 </body>
