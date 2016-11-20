@@ -6,23 +6,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="web design, tallahassee, rob smitha">
+    <meta name="description" content="Rob Smitha Website Designer Tallahasee">
     <meta name="author" content="Rob" >
 
-    <title>Website Designer Tallahassee</title>
+    <title>Rob Smitha - Web Design Tallahassee</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
-	 <link href="css/custom.css" rel="stylesheet">
-	 <link rel="icon" href="img/favicon.ico">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,564 +31,296 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body>
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Rob <span class="red">Smitha</span></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Rob Smitha</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
     </nav>
 
     <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Hi I'm Rob.</span>
-                        
-                        <hr class="star-light">
-                        <span class="skills">Web Designer - Social Media Strategist - Web Hosting Services</span>
-                    </div>
-                </div>
-            </div>
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Rob Smitha</h1>
+ 				<h3>Web Consultant &middot; Computer Scientist</h3>           
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Welcome</a>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <!-- About -->
+    <section id="about" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="gray">Portfolio</h2>
-                    <hr class="star-primary">
-                    <p>Here is some of my work</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-file-video-o fa-3x"><h3>Eternal Image</h3></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/1.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-car fa-3x"><h3>Mako Valet</h3></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/2.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-pencil fa-3x"><h3>Kids Village</h3></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/3.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-home fa-3x"><h3>Zubr Design</h3></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/4.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-users fa-3x"><h3>Fraze Frame</h3></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/5.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-wordpress fa-3x"><h3>Wordpress Blog</h3></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/6.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-            <p class="text-center">Nice to meet you!</p>
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>
-							I'm Rob Smitha <small>(yes that's Smitha with an 'a')</small> <br>
-							I am a 22 year old computer science student at Florida State University and started designing websites about two years ago. 
-							I soon discovered that making websites for clients was just the tip of the iceberg. The real benefit is the business relationships I am building 
-							with my clients and watching their businesses flourish is just a bonus.                  
+                    <h2>CEO/Founder of <a href="http://webmediaconcepts.com">Web Media Concepts</a></h3></h2>
+                    <p class="lead">"I believe my purpose as a web designer is not complete until I have aided in turning a client’s dream into a reality. "
+								<br/><b>Rob Smitha</b>
                     </p>
                 </div>
-                <div class="col-lg-4">
-                    <p>It is no secret that today a company can gain a ton traffic from developing a strong online presence and an effective social media platform. 
-                     Helping to bridge that divide is where I am finding my footing in the business world today. <br>
-                     <q>I believe my purpose as a web designer is not complete until I have aided in turning a client’s dream into a reality. </q> <br> - Rob Smitha
-                    </p>
-                    <br>
-                </div>
-                
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p>View my Blog or Contact me with the buttons below</p> 
-                	<a href="https://robsmitha.wordpress.com" class="btn btn-lg btn-outline">
-                        <i class="fa fa-comments-o"></i> View my Blog
-                    </a>
-                    <a href="mailto:robsmitha94@gmail.com" class="btn btn-lg btn-outline">
-                        <i class="fa fa-envelope"></i> Get in touch
-                    </a>
-                </div>
             </div>
+            <!-- /.row -->
         </div>
+        <!-- /.container -->
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>About Me</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-line-chart blue fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Web Consultant</strong>
+                                </h4>
+                                <p>Facilitating any business' transition to an online setting.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                        <b>I'm Rob Smitha...yes that's Smitha with an 'a' </b>
+                        <p>
+It is no secret that today a company can gain a ton traffic from developing a strong online presence and an effective social media platform. Helping to bridge that divide is where I am finding my footing in the business world today.  									
+ 									</p>
+                            <p>
+I am a 22 year old computer science student at Florida State University and started designing websites about two years ago. I soon discovered that making websites for clients was just the tip of the iceberg.
+ The real benefit is the business relationships I am building with my clients and watching their businesses flourish is just a bonus.
+ 									</p>
+ 									<hr class="small">
+ 									
+ 									<a href="mailto:robsmitha@webmediaconcepts.com" class="btn btn-light">Contact Me</a>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Consulting For the Future</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Projects</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://www.cory2v.com/">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://frazeframe.com/">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://thekidsvillage.org/">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://tallyvalet.com/">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                    <a href="http://webmediaconcepts.com" class="btn btn-dark">Learn More</a>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="gray">Contact Me</h2>
-                    <small>*This contact form is not connected to the database yet, please use 'Get in touch' button above.</small>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/webmediaconcepts/"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/WebMediaConcept"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/WebMediaConcepts"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rob-smitha-7ab39212a"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
+    </aside>
 
+<!-- Map 
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br />
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+        </iframe>
+    </section>
+-->
     <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>680 W Virginia St
-                            <br>Tallahassee, FL 32304</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Connect online</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/rob.smitha" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://plus.google.com/104625845534875230413" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://robsmitha.wordpress.com" class="btn-social btn-outline"><i class="fa fa-fw fa-wordpress"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/rob-smitha-7ab39212a" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/roblaflare/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Thank You!</h3>
-                        <p>I really appreciate you taking the time to view my site. If you would like to learn more please visit<a href="https://robsmitha.wordpress.com" target="_blank"> my blog here</a></p>
-                    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Rob Smitha</strong>
+                    </h4>
+                    <p>680 W Virginia St.
+                        <br>Tallahassee, FL</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (727) 432-3457</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:robsmitha@webmediaconcepts.com">robsmitha@webmediaconcepts.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Rob Smitha 2016</p>
                 </div>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                    <li class="page-scroll">
-                    <a href="#page-top"><i class="fa fa-angle-double-up fa-2x" aria-hidden="true"></i></a>
-                    </li>
-                        Copyright &copy; Rob Smitha 2016
-                    </div>
-                </div>
-            </div>
-        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Eternal Image</h2>
-                            <h3>wedding films</h3>
-                            <hr class="star-primary">
-									<small>Desktop view</small>
-                            <a href="eternal_image/index.html" target="_blank"><img src="img/portfolio/1.png" class="img-responsive img-centered" alt=""></a> 
-                            <small>Smart Phone view</small>
-                            <a href="eternal_image/index.html" target="_blank"><img src="img/portfolio/1.1.png" class="img-responsive img-centered" alt=""></a>
-                            <p>This website was designed for Eternal Image Wedding Films to help promote their on-line presence in a modern and stylish way.
-                            <br>
-										<b>To visit the this full site <a href="eternal_image/index.html" target="_blank">click here</a>  </b>                          
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="mailto:eternalimagefilms@gmail.com">Adriel</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a>September 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="index.html">Website re-Design</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Mako Valet</h2>
-                            <hr class="star-primary">
-                            <small>Desktop view</small>
-                           <a href="http://tallyvalet.com" target="_blank"> <img src="img/portfolio/2.png" class="img-responsive img-centered" alt=""></a>
-                           <small>Smart Phone view</small>
-                           <a href="http://tallyvalet.com" target="_blank"> <img src="img/portfolio/2.1.png" class="img-responsive img-centered" alt=""></a>
-                            <p>This was one of my first websites for a valet company I currently work for part-time. It's main function was the vehicle request system so guest
-                            could request their cars at a specific return time and leave in a timely fashion during peak hours.
-									<b>To visit the this full site <a href="http://tallyvalet.com" target="_blank">click here</a>   </b>                         
-                            </p>
-
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="mailto:robsmitha94@gmail.com">Mako Valet</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a>June 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="index.html">Web Design</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>The Kids Village</h2>
-                            <hr class="star-primary">
-										<small>Desktop view</small>
-                            <a href="http://thekidsvillage.org/" target="_blank"><img src="img/portfolio/3.png" class="img-responsive img-centered" alt=""></a>
-										<small>Smart Phone view</small>
-									 <a href="http://thekidsvillage.org/" target="_blank"><img src="img/portfolio/3.1.png" class="img-responsive img-centered" alt=""></a>	
-                            <p>This site is designed for a local childcare facility in Tallahassee FL. It was a wonderful opportunity to re-create a new site for some great people and a great cause.
-                            The main function of this site was so parents could pay for their child's daycare on-line.
-                            <b>To visit the this full site <a href="http://thekidsvillage.org/" target="_blank">click here</a></b>
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a>Mr. & Mrs. Pfeiffer</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a>August 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="index.html">Web re-Design</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Zubr Design</h2>
-                            <hr class="star-primary">
-                            <small>Desktop view</small>
-                            <a href="zubr_design/index.html" target="_blank"><img src="img/portfolio/4.png" class="img-responsive img-centered" alt=""></a>
-                            <small>Smart Phone view</small>
-                            <a href="zubr_design/index.html" target="_blank"><img src="img/portfolio/4.1.png" class="img-responsive img-centered" alt=""></a>
-                            <p>Mrs. Zubr is a talented interior designer in the Tallahassee area who has worked on a multitude of design projects and has 30+ years of experience in 
-                            the design game. Creating this site was a wonderful opportunity for me!
-                            <b>To visit the this full site <a href="zubr_design/index.html" target="_blank">click here</a></b>
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="mailto:zubrdesign@gmail.com">Wanda Zubr</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a>July 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://robertsmitha.github.io">Web Design</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Fraze Frame</h2>
-                            <hr class="star-primary">
-                            <small>Desktop view</small>
-                            <a href="fraze_frame/index.html" target="_blank"><img src="img/portfolio/5.png" class="img-responsive img-centered" alt=""></a>
-                             <small>Smart Phone view</small>
-                            <a href="fraze_frame/index.html" target="_blank"><img src="img/portfolio/5.1.png" class="img-responsive img-centered" alt=""></a>
-                            <p>Fraze Frame is a social media game company.Game formats created are designed to target specific communities whereby user profiles have a dominant common thread. The goal is that this common thread will create a greater level
-                             of engagement with individuals who may or may not know each other at the start of the game.
-										<b>To visit the this full site <a href="fraze_frame/index.html" target="_blank">click here</a></b>
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="#">Fraze Frame</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a>August 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="index.html">Web Design</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Wordpress Blog</h2>
-                            <hr class="star-primary">
-									<small>Desktop view</small>
-                            <a href="https://robsmitha.wordpress.com" target="_blank"><img src="img/portfolio/6.png" class="img-responsive img-centered" alt=""></a>
-									 <small>Smart Phone view</small>
-                            <a href="https://robsmitha.wordpress.com" target="_blank"><img src="img/portfolio/6.1.png" class="img-responsive img-centered" alt=""></a>
-                            <p>This is a blog I started to write about things I find interesting and helpful to others. It mostly consists of web design and Internet marketing strategies 
-                            but there is also some great content for the everyday reader. Take a look, my mom likes it. 
-										<b>To visit the this full site <a href="https://robsmitha.wordpress.com" target="_blank">click here</a> </b>                           
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a>Myself</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a>September 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://robertsmitha.github.io">Web Design</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
 
 </body>
 
