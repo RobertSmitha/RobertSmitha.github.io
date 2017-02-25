@@ -1,0 +1,21 @@
+/*custom css*/
+body {
+	padding-top: 40px;
+}
+
+.t1,.t2,.t3,.t4 {
+    width: 45px;
+	height: 45px;
+}
+.t1 {
+	background-color: purple;	
+}
+.t2 {
+	background-color: green;	
+}
+.t3 {
+	background-color: blue;	
+}
+.t4 {
+	background-color: yellow;	
+}	
